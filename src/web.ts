@@ -1,10 +1,9 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { MonetColorPlugin } from './definitions';
+import type { MonetColorPlugin, MonetPalette } from './definitions';
 
 export class MonetColorWeb extends WebPlugin implements MonetColorPlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  async getColors(): Promise<MonetPalette> {
+    throw new Error('Monet colors are only available on Android 12+');
   }
 }
