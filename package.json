@@ -19,12 +19,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hill-1024/Monet-Color-For-Capacitor.git.git"
+    "url": "git+https://github.com/Hill-1024/Monet-Color-For-Capacitor.git"
   },
   "bugs": {
-    "url": "https://github.com/Hill-1024/Monet-Color-For-Capacitor.git/issues"
+    "url": "https://github.com/Hill-1024/Monet-Color-For-Capacitor/issues"
   },
   "keywords": [
+    "Monet",
+    "Android",
     "capacitor",
     "plugin",
     "native"
